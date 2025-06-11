@@ -9,7 +9,7 @@ public class Scanner1 {
         System.out.println("Enter an operator (+, -, *, /: ");
         char oper = sc.next().charAt(0);
 
-        System.out.println("Enter the second numver");
+        System.out.println("Enter the second number: ");
         double num2 = sc.nextDouble();
 
         double result;
