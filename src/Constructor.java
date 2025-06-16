@@ -1,8 +1,8 @@
-class Car {
+class Con_Car {
     String brand;
     int year;
 
-    public Car(String brand, int year){
+    public Con_Car(String brand, int year){
         this.brand = brand;
         this.year = year;
 
@@ -15,7 +15,7 @@ class Car {
 
 public class Constructor {
     public static void main(String[] args) {
-        Car car = new Car("현대",2020);
+        Con_Car car = new Con_Car("현대", 2020);
         car.displayInfo();
     }
 }
